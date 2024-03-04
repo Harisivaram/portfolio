@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Unicons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <header class="hearder">
+    <a href="#" class="logo">Portfolio.</a>
+    <nav class="navbar">
+        <a href="#" class="active" style="--i:1">Home</a>
+        <a href="#about" style="--i:2">About</a>
+        <a href="#projects" style="--i:3">Projects</a>
+        <a href="#contact" style="--i:4">Contact</a>
+    </nav>
+</header>
+
+<!--======>> Hero section<<====-->
+<div class="hero-container">
+    <div class="info-side">
+        <h3 class="part-1">Hello, it's me</h3>
+        <h1>Harisivaram</h2>
+        <h3 class="part-2">And I'm a <span id="changing-text">Frontend developer</span></h3>
+        <p>
+            Seeking to join an organization that offers opportunities for growth and development,<br> 
+            where I can contribute to building state-of-the-art web applications while expanding <br>
+            my skill set in frontend development and beyond.
+        </p>
+        <!-- social-media-icons -->
+        <a href="https://www.linkedin.com/in/harisivaram-r"><i class="fa-brands fa-linkedin" style="--i:5"></i></a>
+        <a href="https://twitter.com/Hari92330483578"><i class="fa-brands fa-x-twitter" style="--i:6"></i></a>
+        <a href="https://www.instagram.com/accounts/login/"><i class="fa-brands fa-instagram" style="--i:7"></i></a>
+        <br />
+        <button id="hir-btn" class="btn-h">Hire Me</button>
+    </div>
+    <div class="hero-img">
+        <img class="pic" src="assets/prof.png" alt="pro">
+    </div>
+</div>
+<!-- about me -->
+
+<section class="about" id="about">
+    <div class="about-content">
+        <h2 class="heading">About<span>Me</span></h2>
+        <h3>Front-end Developer</h3>
+        <p>
+        Enthusiastic Frontend Developer with a solid foundation in web development principles and a keen eye for creating engaging user interfaces. With 1+ years of hands-on experience in developing responsive and user-friendly websites, 
+        I have honed my skills in HTML, CSS, JavaScript, and modern frameworks such as React.js and Vue.js. A recent graduate with a Bachelor of Science in Computer Science, supplemented by a comprehensive coding bootcamp in Full Stack Web Development.
+        Proficient in leveraging frontend development tools and libraries to create seamless, dynamic user experiences. Eager to apply my knowledge of frontend technologies, along with my passion for learning and innovation, to contribute to impactful projects.
+        </p>
+        <button>Read More</button>
+    </div>
+</section>
+
+<section class="projects" id="projects">
+    <h2 class="heading">My <span>Projects</span></h2>
+
+    <div class="project-container">
+        <div class="project-box">
+            <h3>Travel Management</h3>
+            <p>In this Travel management page Travelers can explore and involvesoverseeing various aspects of corporate travel, such as bookingtransportation, accommodations, 
+            and managing related expenseseffectively. The primary goals is to optimize travel costs, 
+            ensurecustomer safety, well-being, streamline the overall travel experience</p>
+            <button id="tms-btn">View</button>
+        </div>
+        <div class="project-box">
+            <h3>Login Page</h3>
+            <p>The login page of a website serves as the gateway for users to access their accounts and interact with personalized or secure content. 
+            It typically features fields for entering a username or email and a password, accompanied by a login button. 
+            Additionally,may include links for forgotten passwords or to register for a new account. 
+            authentication for enhanced security.</p>
+            <button id="log-btn">View</button>
+        </div>
+    </div>
+</section>
+
+<section class="contact" id="contact">
+    <div class="content-container">
+        <div class="tittle"><span>Contact Me</span></div>
+        <div class="text">
+            <div class="topic">Have any Projects?</div>
+            <p>Why wait, lets plan to connect. Connection and community improve engagement, retention, and well-being </p>
+            <button id="linkedin-btn">Let's Chat</button>
+
+        </div>
+    </div>
+</section>
+
+<!--Js linked -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="script.js"></script>   
+</body>
+</html>
